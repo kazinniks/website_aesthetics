@@ -1,7 +1,7 @@
 #install.packages('imagefluency')
 require(imagefluency)
 
-screens.path <- setwd("./screenshots")
+screens.path <- setwd("~")
 screens.path.files <- list.files(screens.path, recursive = TRUE)
 
 for (j in 1:length(screens.path.files)){
